@@ -1,3 +1,5 @@
+ASBR4:
+
 ip vrf VPN-A
  rd 100:1
  route-target export 100:1

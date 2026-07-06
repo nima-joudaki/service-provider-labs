@@ -1,3 +1,5 @@
+ASBR5:
+
 ip vrf VPN-A
  rd 200:8
  route-target export 200:8

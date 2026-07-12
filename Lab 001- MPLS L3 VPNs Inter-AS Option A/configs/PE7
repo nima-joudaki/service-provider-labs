@@ -1,0 +1,50 @@
+ip vrf VPN-A
+ rd 200:8
+ route-target export 200:8
+ route-target import 200:8
+!
+ip vrf VPN-B
+ rd 200:10
+ route-target export 200:10
+ route-target import 200:10
+!
+interface Loopback0
+ ip address 192.168.200.7 255.255.255.255
+ ip ospf 200 area 0
+!
+interface GigabitEthernet0/1
+ ip vrf forwarding VPN-A
+ ip address 10.7.8.7 255.255.255.0
+!
+interface GigabitEthernet0/0
+ ip address 10.6.7.7 255.255.255.0
+ ip ospf 200 area 0
+!
+interface GigabitEthernet0/2
+ ip vrf forwarding VPN-B
+ ip address 10.7.10.7 255.255.255.0
+!
+router ospf 200
+ mpls ldp autoconfig
+!
+router bgp 65200
+ bgp log-neighbor-changes
+ neighbor 192.168.200.5 remote-as 65200
+ neighbor 192.168.200.5 update-source Loopback0
+ !
+ address-family vpnv4
+  neighbor 192.168.200.5 activate
+  neighbor 192.168.200.5 send-community extended
+ exit-address-family
+ !
+ address-family ipv4 vrf VPN-A
+  redistribute static
+ exit-address-family
+ !
+ address-family ipv4 vrf VPN-B
+  redistribute static
+ exit-address-family
+!
+ip route vrf VPN-A 192.168.8.0 255.255.255.0 10.7.8.8
+ip route vrf VPN-B 192.168.10.0 255.255.255.0 10.7.10.10
+!

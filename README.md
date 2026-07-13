@@ -73,7 +73,9 @@ The goal is to make it easy to:
 - Network topology diagrams
 - Router configurations
 - Sample Service Provider scenarios
-- What's Not Included
+
+#** What's Not Included**
+
 - Step-by-step instructions
 - Lab objectives
 - Theory or protocol explanations

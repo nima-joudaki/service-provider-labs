@@ -20,14 +20,5 @@ service-provider-labs/
     │   ├── P1.cfg
     │   └── ...
     └── diagram.png
-
-└── Lab 002 - MPLS L3VPN Inter-AS Option B/
-    ├── configs/
-    └── diagram.png
-
-└── Lab 003 - EVPN VXLAN/
-    ├── configs/
-    └── diagram.png
-
 ...
 ```

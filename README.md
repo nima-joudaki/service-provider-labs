@@ -67,7 +67,7 @@ The goal is to make it easy to:
 - Test new features
 - Practice troubleshooting
 - Build your own labs
-- 
+
 # **What's Included**
 
 - Network topology diagrams

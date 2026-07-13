@@ -104,6 +104,6 @@ This project is released under the MIT License unless otherwise specified.
 
 # **Author**
 
-Maintained by Your Name.
+Maintained by **Nima joudaki**.
 
 If you find these labs useful, consider giving the repository a ⭐ to support the project.

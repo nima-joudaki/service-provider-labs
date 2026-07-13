@@ -9,3 +9,25 @@ This repository is intended as a configuration reference for engineers and stude
 ---
 
 # **Repository Structure**
+Each lab is stored in its own directory using the following structure:
+
+```text
+service-provider-labs/
+└── Lab 001 - MPLS L3VPN Inter-AS Option A/
+    ├── configs/
+    │   ├── PE1.cfg
+    │   ├── PE2.cfg
+    │   ├── P1.cfg
+    │   └── ...
+    └── diagram.png
+
+└── Lab 002 - MPLS L3VPN Inter-AS Option B/
+    ├── configs/
+    └── diagram.png
+
+└── Lab 003 - EVPN VXLAN/
+    ├── configs/
+    └── diagram.png
+
+...
+```

@@ -6,8 +6,6 @@ This repository is intended as a configuration reference for engineers and stude
 
 **Note:** This repository contains only **network diagrams** and **device configurations**. It does **not** include lab tasks, walkthroughs, or detailed explanations.
 
----
-
 # **Repository Structure**
 Each lab is stored in its own directory using the following structure:
 

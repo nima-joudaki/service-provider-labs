@@ -22,7 +22,9 @@ service-provider-labs/
     └── diagram.png
 ...
 ```
-Technologies Covered
+---
+
+# **Technologies Covered**
 
 The repository includes labs for technologies such as:
 
@@ -42,7 +44,10 @@ VRFs
 Route Policies
 Traffic Engineering
 Additional Service Provider technologies
-Supported Platforms
+
+---
+
+# **Supported Platforms**
 
 The configurations are designed for Cisco platforms including:
 

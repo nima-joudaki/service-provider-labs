@@ -28,9 +28,9 @@ service-provider-labs/
 
 The repository includes labs for technologies such as:
 
-MPLS
-BGP
-IS-IS
+- MPLS
+- BGP
+- IS-IS
 OSPF
 LDP
 RSVP-TE

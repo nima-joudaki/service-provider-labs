@@ -20,7 +20,6 @@ service-provider-labs/
     └── diagram.png
 ...
 ```
----
 
 # **Technologies Covered**
 
@@ -43,8 +42,6 @@ The repository includes labs for technologies such as:
 - Traffic Engineering
 - Additional Service Provider technologies
 
----
-
 # **Supported Platforms**
 
 The configurations are designed for Cisco platforms including:
@@ -59,8 +56,6 @@ Labs can be adapted for environments such as:
 - GNS3
 - Physical Cisco hardware (where supported)
 
----
-
 # **Purpose**
 
 This repository is designed to provide ready-to-use lab configurations for learning and testing Service Provider technologies.
@@ -72,8 +67,7 @@ The goal is to make it easy to:
 - Test new features
 - Practice troubleshooting
 - Build your own labs
-
----
+- 
 # **What's Included**
 
 - Network topology diagrams
